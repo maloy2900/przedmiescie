@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przedmieście | Prawdziwe Burgery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="Przedmieście Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Start</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1>Prawdziwy Smak Przedmieścia</h1>
+            <p>Najlepsze burgery i maczanki, rzemieślnicze składniki, niepowtarzalny klimat.</p>
+            <a href="#menu" class="btn">Zobacz Menu</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Poznajmy się</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <p>Jesteśmy miejscem, gdzie pasja do jedzenia spotyka się z najwyższą jakością. Nasze mięso grillujemy w punkt, sosy robimy według autorskich receptur, a pieczywo dostarcza nam zaprzyjaźniony piekarz. "Przedmieście" to nie tylko jedzenie, to klimat tworzony przez ludzi i wieczorne światła.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section dark-bg">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Nasze Menu</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-target="burgery">Burgery</button>
+                <button class="tab-btn" data-target="burgerki">Burgerki</button>
+                <button class="tab-btn" data-target="maczanka">Maczanka</button>
+                <button class="tab-btn" data-target="inne">Inne & Dodatki</button>
+            </div>
+
+            <div class="menu-content active" id="burgery">
+                <p class="category-note">Mięso staramy się grillować medium. Bułka ok. 14cm</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><h3>CHEESEBURGER</h3><span class="price">30 PLN</span></div>
+                        <p class="desc">Wołowina 200g | ser cheddar | ser mimolette | pomidor malinowy | sałata bianco | pikle ogórkowe | cebula czerwona | ketchup Heinz | mayo Heinz</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>BIGGIE</h3><span class="price">32 PLN</span></div>
+                        <p class="desc">Wołowina 200g | ser cheddar | ser mimolette | pikle ogórkowe | sekretny sos Biggie | sałata lodowa | prażony sezam | cebula czerwona</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>KOZAK Z DOLNEGO</h3><span class="price">33 PLN</span></div>
+                        <p class="desc">Wołowina 200g | spianata picante | ser cheddar | ser mimolette | gitmajonez z jalapeño | rukola | marynowane jalapeño | mayo sriracha</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>BBQ</h3><span class="price">34 PLN</span></div>
+                        <p class="desc">Wołowina 200g | crispy bacon | czerwona cebula piklowana | ser cheddar | sałata bianco | ser mimolette | pomidor malinowy | pikle ogórkowe | BBQ Missisipi | mayo Heinz</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>MARIANO ITALIANO</h3><span class="price">34 PLN</span></div>
+                        <p class="desc">Wołowina 200g | prosciutto crudo | pomidor malinowy | rukola | mozzarella fior di latte | limonkowy mayo z Grana Padano D.O.P.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>TONY SOPRANO</h3><span class="price">38 PLN</span></div>
+                        <p class="desc">Wołowina 200g | nduja - pikantna kiełbasa | pikle ogórkowe | ser cheddar | czerwone papryczki chili | cebula czerwona | sałata bianco | mayo sriracha</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>THE UNDERTAKER</h3><span class="price">39 PLN</span></div>
+                        <p class="desc">Wołowina 200g | 4x crispy bacon | ser cheddar | ser mimolette | ser irish white cheddar | pikle ogórkowe | roszponka | czerwone chili | smażona maślana cebula | sos bekonez</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>KANAPKA CEZAR</h3><span class="price">37 PLN</span></div>
+                        <p class="desc">2 polędwiczki z kurczaka w sekretnej panierce | crispy bacon | tarty ser Gran Regale | cheddar | sałata bianco | sałata lodowa | chrupiąca bułka od naszego piekarza | limonkowy mayo z Grana Padano</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>DOUBLE TROUBLE</h3><span class="price">40 PLN</span></div>
+                        <p class="desc">2x wołowina 150g | crispy bacon | 2x ser cheddar | pikle ogórkowe | sparzona drobna cebulka | smażona maślana cebula | sos shakeshaq | garlic mayo</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>THE DRWAL</h3><span class="price">42 PLN</span></div>
+                        <p class="desc">Wołowina 200g | czeski smažený sýr | ogórki kiszone z Charsznicy | ser cheddar | bekon | cebula prażona | mayo sriracha | mayo Heinz | szatkowana sałata bianco i lodowa</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>ARNOLD SCHWARZENVEGER</h3><span class="price">33 PLN</span></div>
+                        <p class="desc">NiemiĘso od Vegeconcept | ser cheddar | ser mimolette | pikle ogórkowe | pomidor malinowy | rukola i roszponka | cebula czerwona | mayo Heinz | ketchup Heinz (Na życzenie zrobimy vegan)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-content" id="burgerki">
+                <p class="category-note">Bułka ok. 12cm</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><h3>AMERICANO</h3><span class="price">25 PLN</span></div>
+                        <p class="desc">Wołowina 150g | ser cheddar | pikle ogórkowe | sparzona drobna cebulka | musztarda BBQ | ketchup Heinz</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>O.G. - CZYTAJ OŁ DŻI</h3><span class="price">27 PLN</span></div>
+                        <p class="desc">Wołowina 150g | ser edam | supertajny sos shakeshaq | pikle ogórkowe | sałata bianco | sparzona drobna cebulka | pomidor malinowy</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>PFC - PRZEDMIEŚCIE FRIED CHICKEN</h3><span class="price">28 PLN</span></div>
+                        <p class="desc">2 polędwiczki z kurczaka | ser cheddar opalany palnikiem | sałata lodowa | BBQ Missisipi | pikle ogórkowe | czerwona cebula | posypka paprykowa | mayo Heinz | ketchup Heinz (Powiększenie +9 PLN)</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>JOŽIN Z BAŽIN</h3><span class="price">28 PLN</span></div>
+                        <p class="desc">Czeski smažený sýr | kolorowy colesław | tatarska omáčka naszej produkcji | pikle ogórkowe | zielona cebulka</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-content" id="maczanka">
+                <p class="category-note">Pulled Pork - Szarpana wieprzowina w stylu maczanki po krakowsku</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><h3>KLASYCZNA</h3><span class="price">30 PLN</span></div>
+                        <p class="desc">Karkówka wieprzowa pieczona 14h | chrupiąca buła | pikle ogórkowe i kiszone z Charsznicy | sos mayo-pikle-gorczyca | duszona maślana cebula (Na życzenie + 2 plastry bekonu 3 PLN)</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>OSTRA JALAPEÑO</h3><span class="price">32 PLN</span></div>
+                        <p class="desc">Karkówka pieczona 14h | chrupiąca buła | pikle ogórkowe | jalapeño | plaster cheddara | sos mayo-pikle-gorczyca | sos kozak | duszona maślana cebula</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>BBQ-COLESLAW</h3><span class="price">32 PLN</span></div>
+                        <p class="desc">Karkówka pieczona 14h | chrupiąca buła | pikle ogórkowe | kolorowy colesław | plaster cheddara | sos garlic mayo | sos BBQ Missisipi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-content" id="inne">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-header"><h3>HOT-DOG JANUSZ</h3><span class="price">17 PLN</span></div>
+                        <p class="desc">Kiełbaska wieprzowa z Raciechowic | cebulka smażona | pikle ogórkowe | piklowana cebula | ketchup Heinz | musztarda BBQ (Na życzenie + jalapeño 1 PLN)</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>HOT-DOG STADIONOWY</h3><span class="price">21 PLN</span></div>
+                        <p class="desc">2 kiełbaski wieprzowe z Raciechowic | cebulka smażona | ketchup Heinz | musztarda BBQ (Na życzenie + ogórek kiszony free)</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>FRYTY BELGIJSKIE</h3><span class="price">13 PLN</span></div>
+                        <p class="desc">250g oryginalnych frytek belgijskich. Sos gratis do wyboru.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>FRYTKI WARZYWNE</h3><span class="price">19 PLN</span></div>
+                        <p class="desc">250g smażonych warzyw w chrupiącej skorupce. Sos gratis do wyboru.</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>TURBOFRYTY PULLED PORK</h3><span class="price">32 PLN</span></div>
+                        <p class="desc">Szarpana wieprzowina | fryty belgijskie 250g | cheddar | colesław | piklowana cebula i jalapeño | szczypiorek | sos missisipi BBQ i garlic mayo</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>TURBOFRYTY CRISPY CHICKEN</h3><span class="price">34 PLN</span></div>
+                        <p class="desc">Kawałki chrupiącego kurczaka | fryty belgijskie 250g | colesław | pikle ogórkowe | posypka paprykowa | szczypiorek | grana padano | sos missisipi BBQ i garlic mayo</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>TURBOFRYTY SMAŽENÝ SÝR</h3><span class="price">36 PLN</span></div>
+                        <p class="desc">Czeski smažený sýr | fryty belgijskie 250g | zielona cebulka | tatarska omáčka naszej produkcji! | kiszone ogórasy z Charsznicy</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>SAŁATKA BUFFALO</h3><span class="price">33 PLN</span></div>
+                        <p class="desc">Grillowany kurczak buffalo | awokado | ser blue lazur | pomidor | piklowana cebula | seler naciowy | sos ranch | miks sałat | pieczywo z grilla</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-header"><h3>SAŁATKA CEZAR Z PRZEDMIEŚCIA</h3><span class="price">35 PLN</span></div>
+                        <p class="desc">Chrupiący kurczak | posypka bekonowa | pomidor | kapary | piklowana cebula | chrupiące grzanki | limonkowy mayo z grana padano | miks sałat | pieczywo z grilla</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Znajdź Nas</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <img src="logo.jpg" alt="Przedmieście" class="footer-logo">
+                        <p>Odwiedź nas wieczorową porą i poczuj ten wyjątkowy klimat w sercu miasta.</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Kontakt</h3>
+                        <p>📍 ul. Burmistrza Andrzeja Marka 7</p>
+                        <p>📞 510 288 881</p>
+                        <p>✉️ kontakt@przedmiescie.pl</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Godziny Otwarcia</h3>
+                        <p>Pon - Pt: 11:00 - 20:30</p>
+                        <p>Sob - Niedz: 12:00 - 21:00</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10294.095757626634!2d19.964131510631606!3d49.8326121321315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47166d37c88439c1%3A0x983e36a9a4e871d!2sPrzedmie%C5%9Bcie!5e0!3m2!1spl!2spl!4v1780169824492!5m2!1spl!2spl" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Przedmieście. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
